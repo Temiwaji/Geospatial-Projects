@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00258abc543e6c5b3d1f7e0c9fdc50b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00258abc543e6c5b3d1f7e0c9fdc50b8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00258abc543e6c5b3d1f7e0c9fdc50b8 = L.map(
+                "map_00258abc543e6c5b3d1f7e0c9fdc50b8",
+                {
+                    center: [6.5244, 3.3792],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e39f2442cf5a237ad2b4219ded977d83 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+            var circle_marker_2b3fbd7d7c15842ebbaac4b152f98381 = L.circleMarker(
+                [6.5786, 3.3869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_f5c1d344da8956ae111d88778c32f373 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_85b0261c13343938b8220d048af3fba2 = $(`<div id="html_85b0261c13343938b8220d048af3fba2" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ojota<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 1.0<br>     <b>Traffic Density:</b> 9<br>     <b>Road Condition:</b> 4<br>     <b>Rainfall Level:</b> 8<br>     <b>Drainage Quality:</b> 3<br>     <b>Population Density:</b> 9<br>     <b>Street Lighting:</b> 4<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_f5c1d344da8956ae111d88778c32f373.setContent(html_85b0261c13343938b8220d048af3fba2);
+            
+        
+
+        circle_marker_2b3fbd7d7c15842ebbaac4b152f98381.bindPopup(popup_f5c1d344da8956ae111d88778c32f373)
+        ;
+
+        
+    
+    
+            var circle_marker_721e02c2b5f00a6f387c72667f99b779 = L.circleMarker(
+                [6.5095, 3.3711],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_3138828407cd21494735f22536db2b5f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_aabb2956169c90f0dbf1bd048b03c000 = $(`<div id="html_aabb2956169c90f0dbf1bd048b03c000" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Yaba<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.4<br>     <b>Traffic Density:</b> 8<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 5<br>     <b>Population Density:</b> 8<br>     <b>Street Lighting:</b> 6<br>     <b>Emergency Access:</b> 7     </div>`)[0];
+                popup_3138828407cd21494735f22536db2b5f.setContent(html_aabb2956169c90f0dbf1bd048b03c000);
+            
+        
+
+        circle_marker_721e02c2b5f00a6f387c72667f99b779.bindPopup(popup_3138828407cd21494735f22536db2b5f)
+        ;
+
+        
+    
+    
+            var circle_marker_cf29557bf648a9cf63a2aa68ba349c01 = L.circleMarker(
+                [6.4698, 3.5852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_dc202685d3ce6fc02ca5daf023f128ca = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7d5ffef36269c8b1b3dc5a01117f9372 = $(`<div id="html_7d5ffef36269c8b1b3dc5a01117f9372" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Lekki<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.0<br>     <b>Traffic Density:</b> 7<br>     <b>Road Condition:</b> 8<br>     <b>Rainfall Level:</b> 5<br>     <b>Drainage Quality:</b> 7<br>     <b>Population Density:</b> 7<br>     <b>Street Lighting:</b> 8<br>     <b>Emergency Access:</b> 8     </div>`)[0];
+                popup_dc202685d3ce6fc02ca5daf023f128ca.setContent(html_7d5ffef36269c8b1b3dc5a01117f9372);
+            
+        
+
+        circle_marker_cf29557bf648a9cf63a2aa68ba349c01.bindPopup(popup_dc202685d3ce6fc02ca5daf023f128ca)
+        ;
+
+        
+    
+    
+            var circle_marker_7439adaa061f9d3b6866c307d4b0c904 = L.circleMarker(
+                [6.6194, 3.5105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_96e0b1dba260d1e608346d78d8865424 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d6f8ad3db39f6101551c3d9902a8c4f6 = $(`<div id="html_d6f8ad3db39f6101551c3d9902a8c4f6" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ikorodu<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 0.96<br>     <b>Traffic Density:</b> 8<br>     <b>Road Condition:</b> 5<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 4<br>     <b>Population Density:</b> 8<br>     <b>Street Lighting:</b> 5<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_96e0b1dba260d1e608346d78d8865424.setContent(html_d6f8ad3db39f6101551c3d9902a8c4f6);
+            
+        
+
+        circle_marker_7439adaa061f9d3b6866c307d4b0c904.bindPopup(popup_96e0b1dba260d1e608346d78d8865424)
+        ;
+
+        
+    
+    
+            var circle_marker_f4e0065490484e467fcb2b75e492beb4 = L.circleMarker(
+                [6.4561, 3.3596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_035401c20739037c6b0dc63e42a408c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d7d54be33f2db8a0e4c74854ca73150 = $(`<div id="html_3d7d54be33f2db8a0e4c74854ca73150" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ajegunle<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 1.0<br>     <b>Traffic Density:</b> 9<br>     <b>Road Condition:</b> 3<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 3<br>     <b>Population Density:</b> 9<br>     <b>Street Lighting:</b> 3<br>     <b>Emergency Access:</b> 4     </div>`)[0];
+                popup_035401c20739037c6b0dc63e42a408c1.setContent(html_3d7d54be33f2db8a0e4c74854ca73150);
+            
+        
+
+        circle_marker_f4e0065490484e467fcb2b75e492beb4.bindPopup(popup_035401c20739037c6b0dc63e42a408c1)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7fc54ca739e804fe98ba7cda107ee8 = L.circleMarker(
+                [6.4969, 3.3615],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_e80e9c74137f7be76a8bde864f415886 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e27fa08303050690c3ec65ccd7c84f77 = $(`<div id="html_e27fa08303050690c3ec65ccd7c84f77" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Surulere<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.02<br>     <b>Traffic Density:</b> 7<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 5<br>     <b>Population Density:</b> 7<br>     <b>Street Lighting:</b> 6<br>     <b>Emergency Access:</b> 6     </div>`)[0];
+                popup_e80e9c74137f7be76a8bde864f415886.setContent(html_e27fa08303050690c3ec65ccd7c84f77);
+            
+        
+
+        circle_marker_7d7fc54ca739e804fe98ba7cda107ee8.bindPopup(popup_e80e9c74137f7be76a8bde864f415886)
+        ;
+
+        
+    
+    
+            var circle_marker_aca073d712cb8f40818692d8daee66c7 = L.circleMarker(
+                [6.6018, 3.3515],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_27b995859abd3af868f9dd0b017330d1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_32137d548099226e2f9c9c50726866cd = $(`<div id="html_32137d548099226e2f9c9c50726866cd" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ikeja<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.0<br>     <b>Traffic Density:</b> 6<br>     <b>Road Condition:</b> 7<br>     <b>Rainfall Level:</b> 5<br>     <b>Drainage Quality:</b> 6<br>     <b>Population Density:</b> 7<br>     <b>Street Lighting:</b> 7<br>     <b>Emergency Access:</b> 8     </div>`)[0];
+                popup_27b995859abd3af868f9dd0b017330d1.setContent(html_32137d548099226e2f9c9c50726866cd);
+            
+        
+
+        circle_marker_aca073d712cb8f40818692d8daee66c7.bindPopup(popup_27b995859abd3af868f9dd0b017330d1)
+        ;
+
+        
+    
+    
+            var circle_marker_f944ed60eb91ecbba044c64fc3e7caa4 = L.circleMarker(
+                [6.6156, 3.3209],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_d66f10b05f45ade513168605169f7e69 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7995964a8dbf36d2524b0066c326870c = $(`<div id="html_7995964a8dbf36d2524b0066c326870c" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Agege<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 0.99<br>     <b>Traffic Density:</b> 8<br>     <b>Road Condition:</b> 4<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 4<br>     <b>Population Density:</b> 9<br>     <b>Street Lighting:</b> 4<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_d66f10b05f45ade513168605169f7e69.setContent(html_7995964a8dbf36d2524b0066c326870c);
+            
+        
+
+        circle_marker_f944ed60eb91ecbba044c64fc3e7caa4.bindPopup(popup_d66f10b05f45ade513168605169f7e69)
+        ;
+
+        
+    
+    
+            var circle_marker_ee63ac00acca06852fe80e1b3bbd5994 = L.circleMarker(
+                [6.415, 2.8833],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_6cc30655452f2092c2ade107841c4233 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5dacda27519f9f7b4121819c2f8678e1 = $(`<div id="html_5dacda27519f9f7b4121819c2f8678e1" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Badagry<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.15<br>     <b>Traffic Density:</b> 4<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 5<br>     <b>Drainage Quality:</b> 6<br>     <b>Population Density:</b> 5<br>     <b>Street Lighting:</b> 5<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_6cc30655452f2092c2ade107841c4233.setContent(html_5dacda27519f9f7b4121819c2f8678e1);
+            
+        
+
+        circle_marker_ee63ac00acca06852fe80e1b3bbd5994.bindPopup(popup_6cc30655452f2092c2ade107841c4233)
+        ;
+
+        
+    
+    
+            var circle_marker_4f902b7cc5bcac9002d7d9818119bc87 = L.circleMarker(
+                [6.4281, 3.4219],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_3664ec4ec5856ae0e0f9ca6c035b0df2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_262f2291ddee9604b233414c6c825255 = $(`<div id="html_262f2291ddee9604b233414c6c825255" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Victoria Island<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.0<br>     <b>Traffic Density:</b> 6<br>     <b>Road Condition:</b> 8<br>     <b>Rainfall Level:</b> 5<br>     <b>Drainage Quality:</b> 7<br>     <b>Population Density:</b> 6<br>     <b>Street Lighting:</b> 8<br>     <b>Emergency Access:</b> 8     </div>`)[0];
+                popup_3664ec4ec5856ae0e0f9ca6c035b0df2.setContent(html_262f2291ddee9604b233414c6c825255);
+            
+        
+
+        circle_marker_4f902b7cc5bcac9002d7d9818119bc87.bindPopup(popup_3664ec4ec5856ae0e0f9ca6c035b0df2)
+        ;
+
+        
+    
+    
+            var circle_marker_b7b584a0b8027db32c02a78216db2b49 = L.circleMarker(
+                [6.5278, 3.3498],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_c8b1b0934cc5978acc20d0207afc9f18 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c5ec717f0a2d2bbbed6d10de633ca64c = $(`<div id="html_c5ec717f0a2d2bbbed6d10de633ca64c" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Mushin<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 1.0<br>     <b>Traffic Density:</b> 9<br>     <b>Road Condition:</b> 3<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 3<br>     <b>Population Density:</b> 9<br>     <b>Street Lighting:</b> 3<br>     <b>Emergency Access:</b> 4     </div>`)[0];
+                popup_c8b1b0934cc5978acc20d0207afc9f18.setContent(html_c5ec717f0a2d2bbbed6d10de633ca64c);
+            
+        
+
+        circle_marker_b7b584a0b8027db32c02a78216db2b49.bindPopup(popup_c8b1b0934cc5978acc20d0207afc9f18)
+        ;
+
+        
+    
+    
+            var circle_marker_be8d575580c86bcc22e3dc7f89abdd2e = L.circleMarker(
+                [6.5841, 3.9836],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_2d73c0508af0b8d9e105400096f18155 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_063777613c4d2a8927527f3498c95e02 = $(`<div id="html_063777613c4d2a8927527f3498c95e02" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Epe<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.16<br>     <b>Traffic Density:</b> 5<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 5<br>     <b>Population Density:</b> 5<br>     <b>Street Lighting:</b> 5<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_2d73c0508af0b8d9e105400096f18155.setContent(html_063777613c4d2a8927527f3498c95e02);
+            
+        
+
+        circle_marker_be8d575580c86bcc22e3dc7f89abdd2e.bindPopup(popup_2d73c0508af0b8d9e105400096f18155)
+        ;
+
+        
+    
+    
+            var circle_marker_85b715ba2419f030b5a517a6e55aa435 = L.circleMarker(
+                [6.5708, 3.3731],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_b015646c7f0b7c72cbd1aa80b66e52fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e5f82ee2d8b20b0028d37eb8edf38dfb = $(`<div id="html_e5f82ee2d8b20b0028d37eb8edf38dfb" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Maryland<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.02<br>     <b>Traffic Density:</b> 7<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 5<br>     <b>Population Density:</b> 7<br>     <b>Street Lighting:</b> 6<br>     <b>Emergency Access:</b> 7     </div>`)[0];
+                popup_b015646c7f0b7c72cbd1aa80b66e52fe.setContent(html_e5f82ee2d8b20b0028d37eb8edf38dfb);
+            
+        
+
+        circle_marker_85b715ba2419f030b5a517a6e55aa435.bindPopup(popup_b015646c7f0b7c72cbd1aa80b66e52fe)
+        ;
+
+        
+    
+    
+            var circle_marker_1dd1edf9b0176a38915dfb07e0773a36 = L.circleMarker(
+                [6.4488, 3.359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_ce688ac29b5035b9f919043b054b43f2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5758fbb557657d2b9724db7530da09a8 = $(`<div id="html_5758fbb557657d2b9724db7530da09a8" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Apapa<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 0.96<br>     <b>Traffic Density:</b> 9<br>     <b>Road Condition:</b> 4<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 4<br>     <b>Population Density:</b> 8<br>     <b>Street Lighting:</b> 4<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_ce688ac29b5035b9f919043b054b43f2.setContent(html_5758fbb557657d2b9724db7530da09a8);
+            
+        
+
+        circle_marker_1dd1edf9b0176a38915dfb07e0773a36.bindPopup(popup_ce688ac29b5035b9f919043b054b43f2)
+        ;
+
+        
+    
+    
+            var circle_marker_0ed3c8e6f4a42d3e9e12e708db0d464b = L.circleMarker(
+                [6.5536, 3.3431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_efef28e9df15e4ef6b39e64c3a1cc82a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fc4aadbe137d29e4b067eb800c95e98d = $(`<div id="html_fc4aadbe137d29e4b067eb800c95e98d" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Oshodi<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 1.0<br>     <b>Traffic Density:</b> 10<br>     <b>Road Condition:</b> 3<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 3<br>     <b>Population Density:</b> 10<br>     <b>Street Lighting:</b> 3<br>     <b>Emergency Access:</b> 4     </div>`)[0];
+                popup_efef28e9df15e4ef6b39e64c3a1cc82a.setContent(html_fc4aadbe137d29e4b067eb800c95e98d);
+            
+        
+
+        circle_marker_0ed3c8e6f4a42d3e9e12e708db0d464b.bindPopup(popup_efef28e9df15e4ef6b39e64c3a1cc82a)
+        ;
+
+        
+    
+    
+            var circle_marker_205d573f0d40af9d1074ce8f75c3135b = L.circleMarker(
+                [6.6412, 3.385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_cdcd6b6729de7ef17a586caacc6b8b27 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b216d716698ee2a29207fb5abc096405 = $(`<div id="html_b216d716698ee2a29207fb5abc096405" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Magodo<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.0<br>     <b>Traffic Density:</b> 5<br>     <b>Road Condition:</b> 8<br>     <b>Rainfall Level:</b> 5<br>     <b>Drainage Quality:</b> 7<br>     <b>Population Density:</b> 6<br>     <b>Street Lighting:</b> 8<br>     <b>Emergency Access:</b> 8     </div>`)[0];
+                popup_cdcd6b6729de7ef17a586caacc6b8b27.setContent(html_b216d716698ee2a29207fb5abc096405);
+            
+        
+
+        circle_marker_205d573f0d40af9d1074ce8f75c3135b.bindPopup(popup_cdcd6b6729de7ef17a586caacc6b8b27)
+        ;
+
+        
+    
+    
+            var circle_marker_2632d30e8241b4ce24078d2659b84ff3 = L.circleMarker(
+                [6.4549, 3.4306],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_d13125d095f4836c1d579ce0213632bc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9dd9a0ef2a9cdeb580a775d08bd79b8c = $(`<div id="html_9dd9a0ef2a9cdeb580a775d08bd79b8c" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ikoyi<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.0<br>     <b>Traffic Density:</b> 5<br>     <b>Road Condition:</b> 8<br>     <b>Rainfall Level:</b> 4<br>     <b>Drainage Quality:</b> 8<br>     <b>Population Density:</b> 5<br>     <b>Street Lighting:</b> 9<br>     <b>Emergency Access:</b> 9     </div>`)[0];
+                popup_d13125d095f4836c1d579ce0213632bc.setContent(html_9dd9a0ef2a9cdeb580a775d08bd79b8c);
+            
+        
+
+        circle_marker_2632d30e8241b4ce24078d2659b84ff3.bindPopup(popup_d13125d095f4836c1d579ce0213632bc)
+        ;
+
+        
+    
+    
+            var circle_marker_2348906197963492133681bd02d0933a = L.circleMarker(
+                [6.609, 3.292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_326fa6d73df04d9ea30514ddf06b1e65 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_33f6be011f7b166aa5d26f51b7cd9c8b = $(`<div id="html_33f6be011f7b166aa5d26f51b7cd9c8b" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Alimosho<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 0.99<br>     <b>Traffic Density:</b> 8<br>     <b>Road Condition:</b> 4<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 4<br>     <b>Population Density:</b> 9<br>     <b>Street Lighting:</b> 4<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_326fa6d73df04d9ea30514ddf06b1e65.setContent(html_33f6be011f7b166aa5d26f51b7cd9c8b);
+            
+        
+
+        circle_marker_2348906197963492133681bd02d0933a.bindPopup(popup_326fa6d73df04d9ea30514ddf06b1e65)
+        ;
+
+        
+    
+    
+            var circle_marker_1775f4ff3b9f5bb1defd9ddbe332babb = L.circleMarker(
+                [6.4697, 3.2828],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_5eb3b4bde5ee4fb700c18a130542b62b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4307375854567ed61211acf89b332dba = $(`<div id="html_4307375854567ed61211acf89b332dba" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Festac<br>     <b>Predicted Risk:</b> Low Risk<br>     <b>Risk Probability:</b> 0.02<br>     <b>Traffic Density:</b> 6<br>     <b>Road Condition:</b> 6<br>     <b>Rainfall Level:</b> 6<br>     <b>Drainage Quality:</b> 5<br>     <b>Population Density:</b> 7<br>     <b>Street Lighting:</b> 6<br>     <b>Emergency Access:</b> 6     </div>`)[0];
+                popup_5eb3b4bde5ee4fb700c18a130542b62b.setContent(html_4307375854567ed61211acf89b332dba);
+            
+        
+
+        circle_marker_1775f4ff3b9f5bb1defd9ddbe332babb.bindPopup(popup_5eb3b4bde5ee4fb700c18a130542b62b)
+        ;
+
+        
+    
+    
+            var circle_marker_8acd2ea25400981d71be5d0746261396 = L.circleMarker(
+                [6.5965, 3.3908],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_00258abc543e6c5b3d1f7e0c9fdc50b8);
+        
+    
+        var popup_cf513b5fb37448532dfe6d5bf2626ff0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_74e674a54361e52b12dcb7b487acb414 = $(`<div id="html_74e674a54361e52b12dcb7b487acb414" style="width: 100.0%; height: 100.0%;">     <b>Area:</b> Ketu<br>     <b>Predicted Risk:</b> High Risk<br>     <b>Risk Probability:</b> 0.96<br>     <b>Traffic Density:</b> 8<br>     <b>Road Condition:</b> 5<br>     <b>Rainfall Level:</b> 7<br>     <b>Drainage Quality:</b> 4<br>     <b>Population Density:</b> 8<br>     <b>Street Lighting:</b> 5<br>     <b>Emergency Access:</b> 5     </div>`)[0];
+                popup_cf513b5fb37448532dfe6d5bf2626ff0.setContent(html_74e674a54361e52b12dcb7b487acb414);
+            
+        
+
+        circle_marker_8acd2ea25400981d71be5d0746261396.bindPopup(popup_cf513b5fb37448532dfe6d5bf2626ff0)
+        ;
+
+        
+    
+</script>
+</html>
