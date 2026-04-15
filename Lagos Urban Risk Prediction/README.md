@@ -18,3 +18,7 @@ images/ - screenshots
 
 ### Output
 An interactive HTML map visualizing predicted urban risk across selected part of Lagos.
+
+#### Live Demo
+
+[Click to explore the interactive map showing predicted high-risk urban zones in Lagos](https://temiwaji.github.io/Geospatial-Projects/Lagos%20Urban%20Risk%20Prediction/Output/lagos_risk_map.html)
